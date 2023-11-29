@@ -1,0 +1,409 @@
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+
+
+.barradetareas {
+  margin: 0%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+
+}
+
+.idioma {
+  margin-left: auto;
+  position: relative;
+  right: 50px;
+
+}
+
+.logo {
+  position: relative;
+  top: 5px;
+}
+
+.perfil {
+  margin: 2px;
+  ;
+}
+
+.fondo,
+.fondo2 {
+  position: relative;
+  z-index: -1;
+}
+
+.titulo {
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.destino {
+  background: white;
+  border: 2px;
+  padding: 20px 60px;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.formulario {
+  position: relative;
+  top: 80px;
+
+}
+
+.botondestino {
+  background: white;
+  border: 2px;
+  ;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+
+
+}
+
+
+
+.quienessomos {
+  font-size: 50px;
+  border-radius: 20px;
+  height: 800px;
+  width: 1280px;
+  text-align: left;
+  box-shadow: 2px 4px 30px 0 black;
+  position: relative;
+  top: -500px;
+  z-index: 3;
+  margin: 2px;
+}
+
+.relleno {
+  background-color: beige;
+  position: relative;
+  top: -1300px;
+  left: 500px;
+  padding: 20px 40px;
+  z-index: 2;
+  font-size: 50px;
+  width: 600px;
+  border-radius: 40px;
+  transform: rotate(-10deg);
+  transform-origin: top left
+}
+
+.relleno2 {
+  background-color: papayawhip;
+  position: relative;
+  top: -1650px;
+  padding: 20px 0px;
+  z-index: 1;
+  font-size: 50px;
+  width: 350px;
+  border-radius: 40px;
+  z-index: 1;
+
+
+}
+
+
+
+.pagina3 {
+  text-align: center;
+  background: none;
+  box-shadow: 2px 4px 30px 0 black;
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 48px 40px 76px 40px;
+  margin: auto;
+  display: none;
+
+
+}
+
+.pagina2 {
+  text-align: center;
+  margin-top: 75px;
+  background: none;
+  box-shadow: 2px 4px 30px 0 black;
+  width: 416px;
+  height: 368px;
+  border-radius: 10px;
+  padding: 48px 40px 36px 40px;
+  margin: auto;
+  min-height: 0;
+  display: none;
+}
+
+.logininput {
+  padding: 10px 30px;
+  font-size: 25px;
+  display: block;
+  margin: 10px auto;
+}
+
+.crearperfil,
+.botonenviar {
+  display: inline-flex;
+  margin: 10px auto;
+  padding: 10px 10px;
+  font-size: 19px;
+  border: none;
+  color: white;
+  background: rgb(0, 149, 255);
+
+}
+
+.logo1 {
+  width: 180px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+
+
+.iniciar {
+  position: absolute;
+  top: 0;
+  right: 420px;
+}
+
+.createinput {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 80px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.pagina4 {
+  display: none;
+
+}
+
+#divdemapa {
+  height: 560px;
+}
+ 
+.ofertas {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  width: 1200px;
+  height: 300px;
+  top: 950px;
+  left: 50px;
+}
+
+.promo,
+.ahorro {
+  display: flex;
+  width: 360px;
+  border-radius: 20px;
+  margin: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 96%);
+  color: white;
+}
+
+.tit {
+  font-size: 40px;
+  margin: 20px 20px;
+  position: relative;
+}
+
+.ahorro2 {
+  position: relative;
+  left: 120px;
+}
+
+.icono,
+.icono2 {
+  border-radius: 50%;
+  margin: 10px;
+  position: absolute;
+}
+
+.icono {
+  top: auto;
+  left: 50px;
+  z-index: 1;
+}
+
+.icono2 {
+  left: 430px;
+  top: 90px;
+  z-index: 10;
+}
+
+.ahorro {
+  position: relative;
+  top: -190px;
+  left: 380px;
+  padding: 10px;
+  background: rgb(14, 214, 222);
+  background: linear-gradient(90deg, rgba(14, 214, 222, 1) 0%, rgba(0, 25, 2, 1) 100%);
+}
+
+.canton {
+  width: 150px;
+  position: relative;
+  margin: 8px;
+}
+
+.aliados {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 600px;
+  position: absolute;
+  top: -200px;
+  left: 550px;
+  box-shadow: 2px 4px 30px 0 black;
+}
+
+
+
+
+.container-carousel {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background-color: #e0e0e0;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+  border-radius: 15px;
+  overflow: hidden;
+  top: -1730px;
+}
+
+.carruseles {
+  width: 1000%;
+  height: 100%;
+  display: flex;
+
+}
+
+.slider-section {
+  width: calc(100% / 4);
+  height: 100%;
+}
+
+.slider-section img {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff81;
+  transform: translate(0, -50%);
+  transition: .5s ease;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+  background-color: #333333d4;
+  color: #fff;
+}
+
+.btn-left {
+  left: 10px;
+}
+
+.btn-right {
+  right: 10px;
+}
+
+.pagos {
+  font-family: 'Montserrat', sans-serif;
+  height: 380px;
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 1300px;
+  width: 1120px;
+  left: 50px;
+}
+
+.emprepagos {
+  margin: 10px;
+}
+
+.emprepagosgrande {
+  position: absolute;
+  top: 10px;
+  left: 600px;
+}
+
+.cifras,
+.red,
+.confianza {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.red,
+.confianza,
+.puestos {
+  background-color: white;
+  width: 250px;
+  height: 270px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.red {
+  position: absolute;
+  top: 70px;
+  left: 350px;
+}
+
+.cifras {
+  position: absolute;
+  top: 1700px;
+}
+
+.puestos {
+  position: absolute;
+  top: 70px;
+  left: 700px;
+
+}
+
+.accede {
+  position: absolute;
+  top: 0;
+}
