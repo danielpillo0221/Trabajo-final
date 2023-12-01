@@ -203,6 +203,7 @@ body {
   display: none;
 
 }
+
 .pagina1 {
   display: none;
 
@@ -211,7 +212,7 @@ body {
 #divdemapa {
   height: 560px;
 }
- 
+
 .ofertas {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
@@ -414,7 +415,8 @@ body {
   position: absolute;
   top: 0;
 }
-.flechita{
+
+.flechita {
   position: absolute;
   top: 0px;
   left: 125px;
@@ -422,26 +424,29 @@ body {
   background-color: white;
   margin: 10px;
 
-  
+
 }
-.lugar-destino{
+
+.lugar-destino {
   background-color: white;
   width: 98%;
   height: 50px;
-position: absolute;
-padding: 3px;
-box-shadow: 2px 4px 20px 0 rgb(92, 92, 92);
-border-radius: 10px;
+  position: absolute;
+  padding: 3px;
+  box-shadow: 2px 4px 20px 0 rgb(92, 92, 92);
+  border-radius: .99;
 }
-.destino-2{
+
+.destino-2 {
   position: absolute;
   top: 3px;
   left: 200px;
-  font-size: 24px; 
+  font-size: 24px;
   margin: 5px;
 
 }
-.cambio{
+
+.cambio {
   padding: 5px 20px;
   position: absolute;
   top: 12px;
@@ -451,11 +456,13 @@ border-radius: 10px;
   width: 100px;
 
 }
-.destino-3{
+
+.destino-3 {
   font-size: 24px;
   margin: 5px;
 
 }
+
 button:hover {
   cursor: pointer;
 }
