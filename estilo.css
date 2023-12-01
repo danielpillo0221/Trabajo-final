@@ -414,3 +414,19 @@ body {
   position: absolute;
   top: 0;
 }
+.flechita{
+  position: absolute;
+  top: 13px;
+  left: 110px;
+  border: none;
+  background-color: white;
+
+  
+}
+.lugar-destino{
+  background-color: white;
+  width: 98%;
+  height: 50px;
+position: absolute;
+padding: 2px;
+}
