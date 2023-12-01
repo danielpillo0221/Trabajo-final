@@ -98,7 +98,13 @@ function iniciarsesion(){
    else{
        alert("verifica tu contraseña")
    }
+   
    }
+   const destino=document.getElementById("destino").value
+   const lista = document.getElementById('destino-2');
+   const listItem = document.createElement('h3');
+   listItem.textContent = destino;
+   lista.appendChild(listItem);
 
 
 

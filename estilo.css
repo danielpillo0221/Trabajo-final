@@ -416,7 +416,7 @@ body {
 }
 .flechita{
   position: absolute;
-  top: 13px;
+  top: 20px;
   left: 110px;
   border: none;
   background-color: white;
@@ -429,4 +429,19 @@ body {
   height: 50px;
 position: absolute;
 padding: 2px;
+}
+.destino-2{
+  position: absolute;
+  top: 3px;
+  left: 170px;
+}
+.cambio{
+height: 23px;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+
+}
+.destino-3{
+  font-size: 26px;
 }
