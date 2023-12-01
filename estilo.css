@@ -416,10 +416,11 @@ body {
 }
 .flechita{
   position: absolute;
-  top: 20px;
-  left: 110px;
+  top: 0px;
+  left: 125px;
   border: none;
   background-color: white;
+  margin: 10px;
 
   
 }
@@ -428,20 +429,33 @@ body {
   width: 98%;
   height: 50px;
 position: absolute;
-padding: 2px;
+padding: 3px;
+box-shadow: 2px 4px 20px 0 rgb(92, 92, 92);
+border-radius: 10px;
 }
 .destino-2{
   position: absolute;
   top: 3px;
-  left: 170px;
+  left: 200px;
+  font-size: 24px; 
+  margin: 5px;
+
 }
 .cambio{
-height: 23px;
+  padding: 5px 20px;
   position: absolute;
-  top: 20px;
-  left: 300px;
+  top: 12px;
+  left: 350px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  width: 100px;
 
 }
 .destino-3{
-  font-size: 26px;
+  font-size: 24px;
+  margin: 5px;
+
+}
+button:hover {
+  cursor: pointer;
 }
