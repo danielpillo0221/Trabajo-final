@@ -207,7 +207,7 @@ body {
 
 }
 
-.pagina1 {
+.pagina4 {
   display: none;
 
 }
@@ -432,12 +432,15 @@ body {
 
 .lugar-destino {
   background-color: white;
-  width: 98%;
+  width: 95%;
   height: 50px;
   position: absolute;
   padding: 3px;
   box-shadow: 2px 4px 20px 0 rgb(92, 92, 92);
-  border-radius: .99;
+  border-radius: 5px;
+position: relative;
+left:29px;
+top: auto;
 }
 
 .destino-2 {
