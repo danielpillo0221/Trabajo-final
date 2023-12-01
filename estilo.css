@@ -12,13 +12,16 @@
 .barradetareas {
   margin: 0%;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(253, 88, 88);
   display: flex;
+  color: white;
+  border-radius: 10px;
 
 }
 
 body {
   background-color: rgb(236, 236, 236);
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -196,11 +199,11 @@ body {
   border-radius: 10px;
 }
 
-.pagina1 {
+.pagina5 {
   display: none;
 
 }
-.pagina5 {
+.pagina1 {
   display: none;
 
 }
