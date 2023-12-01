@@ -3,7 +3,11 @@
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 24
+    'opsz' 24;
+    border: none;
+    background-color: rgb(253, 88, 88);
+    border-radius: 50%;
+  
 }
 
 
@@ -39,7 +43,6 @@ body {
 
 .perfil {
   margin: 2px;
-  ;
 }
 
 .fondo,
@@ -465,4 +468,8 @@ body {
 
 button:hover {
   cursor: pointer;
+}
+.logitos{
+  background-color: rgb(253, 88, 88);
+  border: none;
 }
