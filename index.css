@@ -1,16 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap');
+
 .material-symbols-outlined {
   font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-  border: none;
-  border-radius: 50%;
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color:white;
 }
-
 .logo{
-  width: 100px;
+  width: 90px;
+  display: flex;
 }
 .barradetareas{
-  background-color: #203541;
+  background-color: black;
+  height: 110px;
+  box-shadow: 2px 4px 30px 0 black;
+border-radius: 10px;
+}
+.titulo{
+  color: white;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: -20px;
+  left: 110px;
+
+}
+.comentarios{
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+}
+.idioma{
+position: absolute;
+top: 75px;
+left: 1100px;
+}
+.perfil{
+  position: absolute;
+  top: 75px;
+  left: 92%;
+
+}
+.logitos{
+  background-color: black;
+  border: none;
+}
+.pagina1{
+  background-image:url("https://th.bing.com/th/id/R.04c079fd8681c81a470c0f6228845fb4?rik=EUyHp1ljK8pwNw&pid=ImgRaw&r=0    ");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nosotros{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 60px;
+  margin: 1px 100px ;
+}
+.mapita{
+  width: 400px;
+  margin: 1px 110px ;
+
+}
+.porquenosotros{
+  width: 400px;
+  font-size: 36px;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 200px;
+  left: 750px;
 }
