@@ -5,9 +5,8 @@
     'GRAD' 0,
     'opsz' 24;
   border: none;
-  background-color: rgb(253, 88, 88);
+  background-color: #203541;
   border-radius: 50%;
-
 }
 
 
@@ -15,7 +14,7 @@
 .barradetareas {
   margin: 0%;
   padding: 20px;
-  background-color: rgb(253, 88, 88);
+  background-color: #203541;
   display: flex;
   color: white;
   border-radius: 10px;
@@ -23,7 +22,7 @@
 }
 
 body {
-  background-color: rgb(236, 236, 236);
+  background-color:#374955;
 
 }
 
@@ -62,11 +61,17 @@ body {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+.destino2 {
+  background: white;
+  border: 2px;
+  padding: 20px 60px;
+  font-size: 20px;
+  margin: auto;
+}
 
 .formulario {
   position: relative;
   top: 80px;
-
 }
 
 .botondestino {
@@ -462,7 +467,7 @@ body {
 
 }
 
-.destino-3 {
+.destino-3 {  
   font-size: 24px;
   margin: 5px;
   font-family: 'Montserrat', sans-serif;
@@ -474,6 +479,6 @@ button:hover {
 }
 
 .logitos {
-  background-color: rgb(253, 88, 88);
+  background-color:  #203541;
   border: none;
 }
