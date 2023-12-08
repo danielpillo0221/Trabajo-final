@@ -149,3 +149,13 @@ input.inputs-ingreso{
 margin: 20px;
 
 }
+.input2{
+  position: absolute;
+  top: 170px;
+  left: 400px;
+}
+.input4{
+  position: absolute;
+  top: 285px;
+left: 400px;
+}
