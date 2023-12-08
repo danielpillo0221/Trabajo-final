@@ -145,6 +145,7 @@
   position: relative;
   left: 10%;
   font-family: 'Roboto Mono', monospace;
+ 
 
 }
 
@@ -165,27 +166,52 @@ input.inputs-ingreso {
   padding: 20px 70px;
   font-family: 'Roboto Mono', monospace;
   margin: 20px;
+  color: white;
 
 }
+input.inputs-ingreso:focus{
+  border: none;
 
+}
+input.inputs-ingreso:valid{
+  background-color: #000000;
+
+}
 .input2 {
   position: absolute;
-  top: 170px;
+  top: 208px;
   left: 400px;
 }
 
 .input4 {
   position: absolute;
-  top: 285px;
+  top: 322px;
   left: 400px;
 }
 
 .boton{
   padding: 20px 81px;
   position: absolute;
-  top: 440px;
+  top: 470px;
   left: 420px;
   font-size: 20px;
   background-color:#66DA43;
   border: none  ;
+  cursor: pointer;
+
+}
+.ayuda{
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.inicio{
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.botones-secundarios{
+  margin: 15px;
 }
