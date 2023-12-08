@@ -145,7 +145,7 @@
   position: relative;
   left: 10%;
   font-family: 'Roboto Mono', monospace;
- 
+
 
 }
 
@@ -169,14 +169,17 @@ input.inputs-ingreso {
   color: white;
 
 }
-input.inputs-ingreso:focus{
+
+input.inputs-ingreso:focus {
   border: none;
 
 }
-input.inputs-ingreso:valid{
+
+input.inputs-ingreso:valid {
   background-color: #000000;
 
 }
+
 .input2 {
   position: absolute;
   top: 208px;
@@ -189,36 +192,80 @@ input.inputs-ingreso:valid{
   left: 400px;
 }
 
-.boton{
+.boton {
   padding: 20px 81px;
   position: absolute;
   top: 470px;
   left: 420px;
   font-size: 20px;
-  background-color:#66DA43;
-  border: none  ;
+  background-color: #66DA43;
+  border: none;
   cursor: pointer;
 
 }
-.ayuda{
+
+.ayuda {
   background-color: #000000;
   border: none;
   cursor: pointer;
   color: white;
 }
-.inicio{
+
+.inicio {
   background-color: #000000;
   border: none;
   cursor: pointer;
   color: white;
 }
-.botones-secundarios{
+
+.botones-secundarios {
   margin: 15px;
 }
-.sombras{
+
+.sombras {
   width: 100%;
   height: 10px;
-  box-shadow:  0px 80px 40px 10px #000000;
-position: relative;
-top: -63px;
+  box-shadow: 0px 80px 40px 10px #000000;
+  position: relative;
+  top: -63px;
+}
+
+.comillas-dobles {
+  width: 200px;
+  background-color: #000000;
+
+}
+
+.co1 {
+  color: white;
+  background-color: #FFD933;
+  height: 450px;
+  width: 420px;
+  float: left; 
+   width: 33.33%; height:345px;
+   text-align: center;
+}
+
+.co2 {
+  color: white;
+  background-color: #000000;
+  height: 450px;
+  width: 420px;
+  float: left;
+   width: 33.33%;height:345px;
+   text-align: center;
+}
+
+.co3 {
+  background-color: #FF4040;
+  color: white;
+  height: 450px;
+width: 420px;
+float: left; ; width: 33.33%; height:345px;
+text-align: center;
+font-size: 30px;}
+
+/* no me funciona nose porque*/
+.comenta{
+  transition:all 5s ease;
 }

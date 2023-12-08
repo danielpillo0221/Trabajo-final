@@ -12,5 +12,6 @@ if(clave==clave2){
 }else{
     alert("verifica tu contraseña")
 }
+
 }
 
