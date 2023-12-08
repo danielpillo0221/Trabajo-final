@@ -101,9 +101,51 @@ left: 1100px;
 
 
 }
-.iniciar-sesion{
+.segunda-parte{
 background-image: url("https://th.bing.com/th/id/R.3eec2eb6bf26cfe3ffe9a5c24ac90a89?rik=yeg9thvprMlTNQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-2mVWhcUZV1A%2fUJKMWUELFkI%2fAAAAAAAAR38%2fea3GUmpEtPI%2fs1600%2fdesiertos%2b(12).jpg&ehk=ghgIE5eGcLisDdkb4HuYEzu5lrMGMOuvGiWfRVOVKC4%3d&risl=&pid=ImgRaw&r=0") ;
 background-repeat: no-repeat;
 background-size: cover;
 box-shadow: 0px 10px 20px -10px #000000;
+padding: 40px;
+}
+.iniciar-sesion{
+  background-color: black;
+  height: 600px;
+  width: 800px;
+  position: relative;
+  margin: auto ;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 50px;
+}
+.Unetenos{
+  color: white;
+  font-size: 50px;
+text-align: center;
+}
+#label{
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  font-family: 'Roboto Mono', monospace;
+
+}
+.Unetenos2{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+
+}
+input.inputs-ingreso{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  border: none;
+  border-bottom: 2px solid rgb(98, 98, 98);
+ padding: 20px 70px;
+ font-family: 'Roboto Mono', monospace;
+margin: 20px;
+
 }
