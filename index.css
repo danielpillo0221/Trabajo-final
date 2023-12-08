@@ -179,3 +179,13 @@ input.inputs-ingreso {
   top: 285px;
   left: 400px;
 }
+
+.boton{
+  padding: 20px 81px;
+  position: absolute;
+  top: 440px;
+  left: 420px;
+  font-size: 20px;
+  background-color:#66DA43;
+  border: none  ;
+}
