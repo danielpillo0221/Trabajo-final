@@ -2,23 +2,26 @@
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-  color:white;
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  color: white;
 }
-.logo{
+
+.logo {
   width: 90px;
   display: flex;
 }
-.barradetareas{
+
+.barradetareas {
   background-color: black;
   height: 110px;
   box-shadow: 2px 4px 30px 0 black;
-border-radius: 10px;
+  border-radius: 10px;
 }
-.titulo{
+
+.titulo {
   color: white;
   font-size: 70px;
   font-family: 'Oswald', sans-serif;
@@ -27,45 +30,53 @@ border-radius: 10px;
   left: 110px;
 
 }
-.comentarios{
+
+.comentarios {
   position: absolute;
   top: 80px;
   left: 1000px;
 }
-.idioma{
-position: absolute;
-top: 75px;
-left: 1100px;
+
+.idioma {
+  position: absolute;
+  top: 75px;
+  left: 1100px;
 }
-.perfil{
+
+.perfil {
   position: absolute;
   top: 75px;
   left: 92%;
 
 }
-.logitos{
+
+.logitos {
   background-color: black;
   border: none;
 }
-.pagina1{
-  background-image:url("https://th.bing.com/th/id/R.04c079fd8681c81a470c0f6228845fb4?rik=EUyHp1ljK8pwNw&pid=ImgRaw&r=0    ");
+
+.pagina1 {
+  background-image: url("https://th.bing.com/th/id/R.04c079fd8681c81a470c0f6228845fb4?rik=EUyHp1ljK8pwNw&pid=ImgRaw&r=0    ");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 10px 20px -10px #000000;
 
 }
-.nosotros{
+
+.nosotros {
   font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 60px;
-  margin: 1px 100px ;
+  margin: 1px 100px;
 }
-.mapita{
+
+.mapita {
   width: 400px;
-  margin: 1px 110px ;
+  margin: 1px 110px;
 
 }
-.porquenosotros{
+
+.porquenosotros {
   width: 400px;
   font-size: 36px;
   font-family: 'Roboto Mono', monospace;
@@ -73,6 +84,7 @@ left: 1100px;
   top: 200px;
   left: 750px;
 }
+
 .destino {
   background: white;
   border: 2px;
@@ -101,29 +113,33 @@ left: 1100px;
 
 
 }
-.segunda-parte{
-background-image: url("https://th.bing.com/th/id/R.3eec2eb6bf26cfe3ffe9a5c24ac90a89?rik=yeg9thvprMlTNQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-2mVWhcUZV1A%2fUJKMWUELFkI%2fAAAAAAAAR38%2fea3GUmpEtPI%2fs1600%2fdesiertos%2b(12).jpg&ehk=ghgIE5eGcLisDdkb4HuYEzu5lrMGMOuvGiWfRVOVKC4%3d&risl=&pid=ImgRaw&r=0") ;
-background-repeat: no-repeat;
-background-size: cover;
-box-shadow: 0px 10px 20px -10px #000000;
-padding: 40px;
+
+.segunda-parte {
+  background-image: url("https://th.bing.com/th/id/R.3eec2eb6bf26cfe3ffe9a5c24ac90a89?rik=yeg9thvprMlTNQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-2mVWhcUZV1A%2fUJKMWUELFkI%2fAAAAAAAAR38%2fea3GUmpEtPI%2fs1600%2fdesiertos%2b(12).jpg&ehk=ghgIE5eGcLisDdkb4HuYEzu5lrMGMOuvGiWfRVOVKC4%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 10px 20px -10px #000000;
+  padding: 40px;
 }
-.iniciar-sesion{
+
+.iniciar-sesion {
   background-color: black;
   height: 600px;
   width: 800px;
   position: relative;
-  margin: auto ;
+  margin: auto;
   margin-top: 20px;
   padding: 10px;
   border-radius: 50px;
 }
-.Unetenos{
+
+.Unetenos {
   color: white;
   font-size: 50px;
-text-align: center;
+  text-align: center;
 }
-#label{
+
+#label {
   color: white;
   text-align: center;
   position: relative;
@@ -131,7 +147,8 @@ text-align: center;
   font-family: 'Roboto Mono', monospace;
 
 }
-.Unetenos2{
+
+.Unetenos2 {
   color: white;
   font-size: 16px;
   text-align: center;
@@ -139,23 +156,26 @@ text-align: center;
 
 
 }
-input.inputs-ingreso{
+
+input.inputs-ingreso {
   background-color: rgb(0, 0, 0);
   display: flex;
   border: none;
   border-bottom: 2px solid rgb(98, 98, 98);
- padding: 20px 70px;
- font-family: 'Roboto Mono', monospace;
-margin: 20px;
+  padding: 20px 70px;
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px;
 
 }
-.input2{
+
+.input2 {
   position: absolute;
   top: 170px;
   left: 400px;
 }
-.input4{
+
+.input4 {
   position: absolute;
   top: 285px;
-left: 400px;
+  left: 400px;
 }
