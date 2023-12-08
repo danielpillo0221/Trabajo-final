@@ -242,8 +242,12 @@ input.inputs-ingreso:valid {
   height: 450px;
   width: 420px;
   float: left; 
-   width: 33.33%; height:345px;
+   width: 33.4%; height:395px;
    text-align: center;
+   font-size: 24px;
+   font-family: 'Oswald', monospace;
+
+
 }
 
 .co2 {
@@ -252,8 +256,12 @@ input.inputs-ingreso:valid {
   height: 450px;
   width: 420px;
   float: left;
-   width: 33.33%;height:345px;
+   width: 32.9%;height:395px;
    text-align: center;
+   font-size: 24px;
+   font-family: 'Oswald', monospace;
+
+
 }
 
 .co3 {
@@ -261,9 +269,12 @@ input.inputs-ingreso:valid {
   color: white;
   height: 450px;
 width: 420px;
-float: left; ; width: 33.33%; height:345px;
+float: left; ; width: 33.4%; height:395px;
 text-align: center;
-font-size: 30px;}
+font-size: 24px;
+font-family: 'Oswald', monospace;
+
+}
 
 /* no me funciona nose porque*/
 .comenta{
