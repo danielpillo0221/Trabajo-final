@@ -60,7 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 10px 20px -10px #000000;
-
+position: relative;
 }
 
 .nosotros {
@@ -120,6 +120,7 @@
   background-size: cover;
   box-shadow: 0px 10px 20px -10px #000000;
   padding: 40px;
+  position: relative;
 }
 
 .iniciar-sesion {
