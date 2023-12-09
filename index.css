@@ -236,16 +236,22 @@ input.inputs-ingreso:valid {
 
 }
 
+.tercera-parte {
+  position: relative;
+  top: -21px;
+}
+
 .co1 {
   color: white;
   background-color: #FFD933;
   height: 450px;
   width: 420px;
-  float: left; 
-   width: 33.4%; height:395px;
-   text-align: center;
-   font-size: 24px;
-   font-family: 'Oswald', monospace;
+  float: left;
+  width: 33.4%;
+  height: 395px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Oswald', monospace;
 
 
 }
@@ -256,10 +262,11 @@ input.inputs-ingreso:valid {
   height: 450px;
   width: 420px;
   float: left;
-   width: 32.9%;height:395px;
-   text-align: center;
-   font-size: 24px;
-   font-family: 'Oswald', monospace;
+  width: 32.9%;
+  height: 395px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Oswald', monospace;
 
 
 }
@@ -268,15 +275,50 @@ input.inputs-ingreso:valid {
   background-color: #FF4040;
   color: white;
   height: 450px;
-width: 420px;
-float: left; ; width: 33.4%; height:395px;
-text-align: center;
-font-size: 24px;
-font-family: 'Oswald', monospace;
+  width: 420px;
+  float: left;
+  ;
+  width: 33.7%;
+  height: 395px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Oswald', monospace;
 
 }
 
 /* no me funciona nose porque*/
-.comenta{
-  transition:all 5s ease;
+.comenta {
+  transition: all 5s ease;
+}
+
+.pie-de-pagina {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+}
+
+.h1-pie {
+  margin-top: 20px;
+  position: relative;
+}
+
+.direccion {
+  position: relative;
+  top: 100px;
+  left: -400px;
+}
+
+.contacto {
+  position: relative;
+  top: -22px;
+
+}
+
+.abierto {
+  position: relative;
+  top: -145px;
+  left: 900px;
+  width: 300px;
 }
