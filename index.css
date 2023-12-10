@@ -81,7 +81,7 @@ position: relative;
   font-size: 36px;
   font-family: 'Roboto Mono', monospace;
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 750px;
 }
 
@@ -323,4 +323,11 @@ input.inputs-ingreso:valid {
   top: -145px;
   left: 900px;
   width: 300px;
+}
+.contenedor{
+  z-index: 10000;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  
 }
