@@ -327,7 +327,8 @@ input.inputs-ingreso:valid {
 .contenedor{
   z-index: 10000;
   position: absolute;
-  top: 40px;
-  left: -10px;
-  
+  top: 30px;
+  left: -100px;
+background-color: #c72e2e;
+text-align: left;
 }
