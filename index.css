@@ -340,6 +340,7 @@ input.inputs-ingreso:valid {
   border: #66DA43;
   background-color: #66DA43 ;
   width: 150px;
+  display: none;
 }
 .aparecen{
   background-color: #0e0e0e;
