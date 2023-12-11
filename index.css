@@ -331,10 +331,35 @@ input.inputs-ingreso:valid {
   width: 300px;
 }
 
-.contenedor {
-  z-index: 10000;
-  position: absolute;
-  top: 30px;
+
+.botones-adicionales{
+  z-index: 1000000;
+  position: absolute  ;
   left: -100px;
   text-align: left;
+  border: #66DA43;
+  background-color: #66DA43 ;
+  width: 150px;
+}
+.aparecen{
+  background-color: #0e0e0e;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.aparecen:hover, .aparecen1:hover{
+  color: #66DA43 ;
+
+}
+.aparecen1{
+  background-color: #0e0e0e;
+  color: white;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
 }

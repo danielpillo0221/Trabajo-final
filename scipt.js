@@ -29,6 +29,5 @@ function botoncitos() {
     } else {
       botonesAdicionales.style.display = 'none';
     }
-  })
-
+  });
 }
