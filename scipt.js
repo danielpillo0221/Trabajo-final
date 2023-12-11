@@ -115,9 +115,9 @@ function botoncitos() {
   boton3.style.cursor = "pointer";
   boton4.style.cursor = "pointer";
   // boton5.style.cursor ="pointer";
-  boton1.style.width = "175px";
-  boton2.style.width = "175px";
-  boton3.style.width = "175px";
-  boton4.style.width = "175px";
-  boton5.style.width = "175px";
+  boton1.style.width = "150px";
+  boton2.style.width = "150px";
+  boton3.style.width = "150px";
+  boton4.style.width = "150px";
+  boton5.style.width = "150px";
 }
