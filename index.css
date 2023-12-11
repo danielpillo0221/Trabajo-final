@@ -8,9 +8,11 @@
     'opsz' 48;
   color: white;
 }
-.material-symbols-outlined:hover{
+
+.material-symbols-outlined:hover {
   color: #66DA43;
 }
+
 .logo {
   width: 90px;
   display: flex;
@@ -64,7 +66,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 10px 20px -10px #000000;
-position: relative;
+  position: relative;
 }
 
 .nosotros {
@@ -328,11 +330,11 @@ input.inputs-ingreso:valid {
   left: 900px;
   width: 300px;
 }
-.contenedor{
+
+.contenedor {
   z-index: 10000;
   position: absolute;
   top: 30px;
   left: -100px;
-text-align: left;
+  text-align: left;
 }
-
