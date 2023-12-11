@@ -84,10 +84,10 @@ function botoncitos() {
   boton4.addEventListener("mouseout", function () {
     this.style.color = "white";
   });
-  boton1.style.backgroundColor = "black"; // Cambia el color de fondo a rojo
-  boton2.style.backgroundColor = "black"; // Cambia el color de fondo a rojo
-  boton3.style.backgroundColor = "black"; // Cambia el color de fondo a rojo
-  boton4.style.backgroundColor = "black"; // Cambia el color de fondo a azul
+  boton1.style.backgroundColor = "#0e0e0e"; // Cambia el color de fondo a rojo
+  boton2.style.backgroundColor = "#0e0e0e"; // Cambia el color de fondo a rojo
+  boton3.style.backgroundColor = "#0e0e0e"; // Cambia el color de fondo a rojo
+  boton4.style.backgroundColor = "#0e0e0e"; // Cambia el color de fondo a azul
   // Cambia el color de fondo a azul
   boton2.style.color = "white"; // Cambia el color del texto a blanco
   boton1.style.color = "white"; // Cambia el color del texto a blanco
@@ -115,9 +115,9 @@ function botoncitos() {
   boton3.style.cursor = "pointer";
   boton4.style.cursor = "pointer";
   // boton5.style.cursor ="pointer";
-  boton1.style.width = "180px";
-  boton2.style.width = "180px";
-  boton3.style.width = "180px";
-  boton4.style.width = "180px";
-  boton5.style.width = "180px";
+  boton1.style.width = "175px";
+  boton2.style.width = "175px";
+  boton3.style.width = "175px";
+  boton4.style.width = "175px";
+  boton5.style.width = "175px";
 }

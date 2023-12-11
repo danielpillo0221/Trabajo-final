@@ -8,7 +8,9 @@
     'opsz' 48;
   color: white;
 }
-
+.material-symbols-outlined:hover{
+  color: #66DA43;
+}
 .logo {
   width: 90px;
   display: flex;
@@ -53,7 +55,9 @@
 .logitos {
   background-color: black;
   border: none;
+  cursor: pointer;
 }
+
 
 .primera-parte {
   background-image: url("https://th.bing.com/th/id/R.04c079fd8681c81a470c0f6228845fb4?rik=EUyHp1ljK8pwNw&pid=ImgRaw&r=0    ");
@@ -332,3 +336,4 @@ input.inputs-ingreso:valid {
 background-color: #78c72e;
 text-align: left;
 }
+
