@@ -60,3 +60,7 @@ function iniciarsesion(){  alert("abc")
   document.getElementById("crear-cuenta").style.display="none";
   document.getElementById("iniciar-sesion").style.display="block";  
 }
+function reserva(){
+  document.getElementById("reservas").style.display="block";  
+
+}
