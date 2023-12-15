@@ -150,35 +150,40 @@
 
                     <button class="boton" onclick="crear()" type="submit">Crea tu cuenta</button>
                 </form>
-                <div class="botones-secundarios"> <button class="ayuda" onclick="b()">ayuda</button>
+                <div class="botones-secundarios"> 
+                    <button class="ayuda" onclick="b()">ayuda</button>
                     <button class="inicio" onclick="iniciarsesion()">Iniciar sesion</button>
 
 
                 </div>
             </div>
-            <form action=""></form>
-            <div class="iniciar-sesion">
-                <h1 class="Unetenos">Inicia sesión</h1>
-                <p class="Unetenos2">Suscribete y obtendras ofertas exclusivas y contenidos
-                    <br> especiales</p><br>
 
-                <button class="crearsesion" onclick="crearsesion()">Unetenos</button>
 
-                <div class="input1"> <label id="label" for="nombre-input">nombre de usuario*</label>
-                    <input class="inputs-ingreso" id="nombre-input" required title="Por favor, ingresa tu nombre"
-                        type="text" placeholder="">
-                </div>
-                <div class="input2"> <label id="label" for="apellido-input">contraseña*</label>
-                    <input class="inputs-ingreso" id="apellido-input" type="text" required
-                        title="Por favor, llene este campo" placeholder="">
-                </div>
-                <div class="input3"> <label id="label" for="correo-input">Correo*</label>
-                    <input class="inputs-ingreso" id="correo-input" title="Por favor, llene este campo" type="email"
-                        placeholder="">
-                </div>
-                <button class="boton1" onclick="crearsesion()">Unetenos</button>
+            
+            <form action="">
+                <div class="iniciar-sesion">
+                    <h1 class="Unetenos">Inicia sesión</h1>
+                    <p class="Unetenos2">Suscribete y obtendras ofertas exclusivas y contenidos
+                        <br> especiales</p><br>
 
-            </div>
+                    <button class="crearsesion" type="submit" onclick="a()">Unetenos</button>
+
+                    <div class="input1"> <label id="label" for="nombre-input">nombre de usuario*</label>
+                        <input class="inputs-ingreso" id="nombre-input" required title="Por favor, ingresa tu nombre"
+                            type="text" placeholder="">
+                    </div>
+                    <div class="input2"> <label id="label" for="apellido-input">contraseña*</label>
+                        <input class="inputs-ingreso" id="apellido-input" type="text" required
+                            title="Por favor, llene este campo" placeholder="">
+                    </div>
+                    <div class="input3"> <label id="label" for="correo-input">Correo*</label>
+                        <input class="inputs-ingreso" id="correo-input" title="Por favor, llene este campo" type="email"
+                            placeholder="">
+                    </div>
+                    <button class="boton1" type="submit" onclick="crearsesion()">Unetenos</button>
+
+                </div>
+            </form>
         </div>
         <div id="tercera-parte" class="tercera-parte">
 

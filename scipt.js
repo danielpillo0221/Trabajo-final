@@ -1,3 +1,7 @@
+window.onload = function() {
+  // Tu código JavaScript aquí
+};
+
 // function crear() {
 //   const nombre = document.getElementById("nombre-input").value;
 //   const apellido = document.getElementById("apellido-input").value;
@@ -50,6 +54,9 @@ function cuenta(){
   alert("Ae")
 
 }
-function iniciarsesion(){
-  alert("a")
+// esta funcion del display no me quiere y me dice esto(cannot read properties of null (reading style))
+function iniciarsesion(){  alert("abc") 
+
+  document.getElementById("crear-cuenta").style.display="none";
+  document.getElementById("iniciar-sesion").style.display="block";  
 }
