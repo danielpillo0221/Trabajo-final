@@ -19,12 +19,13 @@
 
 
             <h1 class="titulo"> ast move</h1>
-            <div id="formulario" class="formulario">
+            <form action="">
+                <div id="formulario" class="formulario">
 
-                <input list="destino2" id="destino" class="destino" type="text" placeholder="¿A que ciudad vas?"
-                    required>
+                    <input list="destino2" id="destino" class="destino" type="text" placeholder="¿A que ciudad vas?"
+                        required>
 
-                <!-- <datalist id="destino2">
+                    <!-- <datalist id="destino2">
                   <option value="medellin">
                   <option value="Itagui">
                   <option value="Cali">
@@ -80,7 +81,9 @@
                   <option value="Zipaquira">
                   <option value="Chinquiquira"> -->
 
-                <button id="botondestino" class="botondestino" onclick="asesion()" type="button">buscar</button></div>
+                    <button id="botondestino" class="botondestino" onclick="asesion()" type="submit">buscar</button>
+                </div>
+            </form>
 
             <div class="comentarios">
                 <a class="comenta" href="#tercera-parte"><span class="material-symbols-outlined">
@@ -122,31 +125,50 @@
                 <h1 class="Unetenos">Unetenos</h1>
                 <p class="Unetenos2">Suscribete y obtendras ofertas exclusivas y contenidos
                     <br> especiales</p><br>
-                <div class="input1"> <label id="label" for="nombre-input">Tu nombre*</label>
-                    <input class="inputs-ingreso" id="nombre-input" required title="Por favor, ingresa tu nombre"
-                        type="text" placeholder="">
-                </div>
-                <div class="input2"> <label id="label" for="apellido-input">Apellidos (Opcional)*</label>
-                    <input class="inputs-ingreso" id="apellido-input" type="text" required
-                        title="Por favor, llene este campo" placeholder="">
-                </div>
-                <div class="input3"> <label id="label" for="correo-input">Correo*</label>
-                    <input class="inputs-ingreso" id="correo-input" title="Por favor, llene este campo" type="email"
-                        placeholder="">
-                </div>
-                <div class="input4"> <label id="label" for="clave-input">Contraseña*</label>
-                    <input class="inputs-ingreso" id="clave-input" required title="Por favor, llene este campo"
-                        type="password" placeholder="">
-                </div>
-                <div class="input5"> <label id="label" for="clave2-input">Verificación*</label>
-                    <input class="inputs-ingreso" id="clave2-input" required title="Por favor, llene este campo"
-                        type="password" placeholder="">
-                </div>
+                <form action="">
+                    <div class="input1"> <label id="label" for="nombre-input">Tu nombre*</label>
+                        <input class="inputs-ingreso" id="nombre-input" required title="Por favor, ingresa tu nombre"
+                            type="text" placeholder="">
+                    </div>
+                    <div class="input2"> <label id="label" for="apellido-input">Apellidos (Opcional)*</label>
+                        <input class="inputs-ingreso" id="apellido-input" type="text" required
+                            title="Por favor, llene este campo" placeholder="">
+                    </div>
+                    <div class="input3"> <label id="label" for="correo-input">Correo*</label>
+                        <input class="inputs-ingreso" id="correo-input" title="Por favor, llene este campo" type="email"
+                            placeholder="">
+                    </div>
+                    <div class="input4"> <label id="label" for="clave-input">Contraseña*</label>
+                        <input class="inputs-ingreso" id="clave-input" required title="Por favor, llene este campo"
+                            type="password" placeholder="">
+                    </div>
+                    <div class="input5"> <label id="label" for="clave2-input">Verificación*</label>
+                        <input class="inputs-ingreso" id="clave2-input" required title="Por favor, llene este campo"
+                            type="password" placeholder="">
+                    </div>
 
 
-                <button class="boton" onclick="crear()" type="button">Crea tu cuenta</button>
+                    <button class="boton" onclick="crear()" type="submit">Crea tu cuenta</button>
+                </form>
                 <div class="botones-secundarios"> <button class="ayuda" onclick="b()">ayuda</button>
-                    <button class="inicio" onclick="c()">Iniciar sesion</button>
+
+
+                    <div class="iniciar-sesion">
+                        <button class="inicio" onclick="c()">Iniciar sesion</button>
+
+                        <div class="input1"> <label id="label" for="nombre-input">Tu nombre*</label>
+                            <input class="inputs-ingreso" id="nombre-input" required
+                                title="Por favor, ingresa tu nombre" type="text" placeholder="">
+                        </div>
+                        <div class="input2"> <label id="label" for="apellido-input">Apellidos (Opcional)*</label>
+                            <input class="inputs-ingreso" id="apellido-input" type="text" required
+                                title="Por favor, llene este campo" placeholder="">
+                        </div>
+                        <div class="input3"> <label id="label" for="correo-input">Correo*</label>
+                            <input class="inputs-ingreso" id="correo-input" title="Por favor, llene este campo"
+                                type="email" placeholder="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
