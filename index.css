@@ -488,5 +488,15 @@ padding: 5px 8px 8px;
   height: 52px;
 }
 .reservas{
-  display: none;
+ color: rgb(255, 255, 255);
+position: absolute;
+top: 
+400px;
+left: 200px;
+font-size: 18px;
+display: none;
+}
+.reservaa{
+  font-family: 'Oswald', monospace;
+
 }

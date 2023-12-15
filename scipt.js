@@ -55,10 +55,15 @@ function cuenta(){
 
 }
 // esta funcion del display no me quiere y me dice esto(cannot read properties of null (reading style))
-function iniciarsesion(){  alert("abc") 
+function iniciarsesion(){ 
 
   document.getElementById("crear-cuenta").style.display="none";
   document.getElementById("iniciar-sesion").style.display="block";  
+}
+function a(){   
+
+    document.getElementById("iniciar-sesion").style.display="none";  
+document.getElementById("crear-cuenta").style.display="block";
 }
 function reserva(){
   document.getElementById("reservas").style.display="block";  
