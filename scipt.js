@@ -36,7 +36,17 @@ function botoncitos() {
   });
 }
 function reserva(){
-  alert("A")
+  document.getElementById("reservas").style.display="block";  
+}
+function proximas(){
+  document.getElementById("historial").style.display="none";  
+  document.getElementById("proximas").style.display="block";  
+
+}
+function historial(){
+  document.getElementById("proximas").style.display="none";  
+  document.getElementById("historial").style.display="block";  
+
 }
 function billetera(){
   alert("Ab")
@@ -64,8 +74,4 @@ function a(){
 
     document.getElementById("iniciar-sesion").style.display="none";  
 document.getElementById("crear-cuenta").style.display="block";
-}
-function reserva(){
-  document.getElementById("reservas").style.display="block";  
-
 }

@@ -464,10 +464,24 @@ padding: 5px 8px 8px;
   font-size: 16px;
   height: 56px;
 }
-
+.botonnu-1{
+  width: 105px;
+  border: black;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  height: 56px;
+}
 .botonnu:hover{
   color: #5cae43;
   border-top: 4px solid #5cae43 ;
+  height: 52px;
+}
+.botonnu-1:hover{
+  color: #5cae43;
+  border-bottom: 4px solid #5cae43 ;
   height: 52px;
 }
 .botonnu0:hover{
@@ -495,8 +509,28 @@ top:
 left: 200px;
 font-size: 18px;
 display: none;
+border-bottom:1px solid rgb(87, 82, 82) ;
+width: 900px;
 }
 .reservaa{
   font-family: 'Oswald', monospace;
 
 }
+.proximas{
+  color: white;
+  position: absolute;
+  top: 800px;
+left: 495px;
+font-size: 18px;
+display: none;
+}
+.historial{
+  color: white;
+  position: absolute;
+  top: 800px;
+  left: 540px;
+  font-size: 18px;
+  display: none;
+
+}
+
