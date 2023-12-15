@@ -129,7 +129,7 @@
   position: relative;
 }
 
-.iniciar-sesion {
+.crear-cuenta {
   background-color: black;
   height: 600px;
   width: 800px;
@@ -138,6 +138,18 @@
   margin-top: 20px;
   padding: 10px;
   border-radius: 50px;
+}
+.iniciar-sesion {
+  background-color: black;
+  height: 500px;
+  width: 800px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 50px;  
+  display: none;
+
 }
 
 .Unetenos {
@@ -210,6 +222,17 @@ input.inputs-ingreso:valid {
   cursor: pointer;
 
 }
+.boton1 {
+  padding: 20px 105px;
+  position: absolute;
+  top: 360px;
+  left: 420px;
+  font-size: 20px;
+  background-color: #66DA43;
+  border: none;
+  cursor: pointer;
+
+}
 
 .ayuda {
   background-color: #000000;
@@ -223,6 +246,16 @@ input.inputs-ingreso:valid {
   border: none;
   cursor: pointer;
   color: white;
+}
+.crearsesion {
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 450px;
+  margin: 15px;
+
 }
 
 .botones-secundarios {
@@ -454,4 +487,4 @@ padding: 5px 8px 8px;
   border-top: 4px solid #5cae43 ;
   height: 52px;
 }
-/* profe como hago que despues de darle click se queden las propiedades que hay en el :Hover que se quede fija pero cuando le de click a a otro se borre el anterior y ya pasen las propiedades al boton que le cabo de dar click */
+

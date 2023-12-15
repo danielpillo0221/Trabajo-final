@@ -50,3 +50,6 @@ function cuenta(){
   alert("Ae")
 
 }
+function iniciarsesion(){
+  alert("a")
+}
