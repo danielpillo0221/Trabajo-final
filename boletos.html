@@ -50,12 +50,15 @@
         <img src="" alt="">
         <h1 class="nombre" id="nombre-input">(Nombre)</h1>
     </div>
-    <div class="botones"> <button onclick="reserva()" class="botonnu0">Mis reservas</button>
-        <button onclick="billetera()" class="botonnu">Mi billetera</button>
-        <button onclick="pedidos()" class="botonnu1">Mis pedidos</button>
-        <button onclick="subs()" class="botonnu2">Mis suscripciones</button>
-        <button onclick="cuenta()" class="botonnu3">Mi cuenta</button>
-    </div>
+    <div class="botones"> 
+        <ul id="menu">
+            <li><a href="#"  onclick="seleccionarOpcion(0)">Inicio</a></li>
+            <li><a href="#"    onclick="seleccionarOpcion(1)">Servicios</a></li>
+            <li><a href="#"  onclick="seleccionarOpcion(2)">Acerca de</a></li>
+            <li><a href="#"   onclick="seleccionarOpcion(3)">Contacto</a></li>
+            <li><a href="#"  onclick="seleccionarOpcion(3)">Contacto</a></li>
+
+          </ul>    </div>
     <div id="reservas" class="reservas">
         <h2 class="reservaa">Administra tus reservas</h2>
         <p>rogramar o cancelar tus reservas y volver a reservar fácilmente.</p>
@@ -69,7 +72,14 @@
     <div id="historial" class="historial">
         <p>Deseamos conocerlos pronto.</p>
     </div>
-    <div class="billetera"></div>
+    <div class="billetera">
+        <h1 class="billeteraa">Mi billetera</h1>
+        <p>Guarda los detalles de tus tarjetas para pagar más rápido.</p>
+    </div>
+    <div class="guardar">
+        <p>Aún no has guardado ninguna tarjeta</p>
+        <p class="detalles">Guarda tus detalles de pago de forma segura, mientras realizas un pedido durante el checkout.</p>
+    </div>
     <div class="pedidos"></div>
     <div class="subs cuenta"></div>
 

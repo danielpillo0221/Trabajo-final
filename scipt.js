@@ -35,9 +35,22 @@ function botoncitos() {
     }
   });
 }
-function reserva(){
-  document.getElementById("reservas").style.display="block";  
+function seleccionarOpcion(index) {
+  // Obtener todos los elementos 'a' dentro del menú
+  var opciones = document.querySelectorAll('#menu a');  
+
+  // Quitar la clase 'selected' de todas las opciones
+  opciones.forEach(function(opcion) {
+    opcion.classList.remove('selected');
+  });
+
+  // Agregar la clase 'selected' a la opción seleccionada
+  opciones[index].classList.add('selected');
 }
+
+// function seleccionarOpcion(){
+//   document.getElementById("reservas").style.display="block";  
+// }
 function proximas(){
   document.getElementById("historial").style.display="none";  
   document.getElementById("proximas").style.display="block";  
