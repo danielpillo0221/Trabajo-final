@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fast Move</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -50,15 +50,14 @@
         <img src="" alt="">
         <h1 class="nombre" id="nombre-input">(Nombre)</h1>
     </div>
-    <div class="botones"> 
-        <ul id="menu">
-            <li><a href="#"  onclick="seleccionarOpcion(0)">Inicio</a></li>
-            <li><a href="#"    onclick="seleccionarOpcion(1)">Servicios</a></li>
-            <li><a href="#"  onclick="seleccionarOpcion(2)">Acerca de</a></li>
-            <li><a href="#"   onclick="seleccionarOpcion(3)">Contacto</a></li>
-            <li><a href="#"  onclick="seleccionarOpcion(3)">Contacto</a></li>
+    <div class="botones">
+        <button onclick="reserva()" class="botonnu0">Mis reservas</button>
+        <button onclick="billetera()" class="botonnu">Mi billetera</button>
+        <button onclick="pedidos()" class="botonnu1">Mis pedidos</button>
+        <button onclick="subs()" class="botonnu2">Mis suscripciones</button>
+        <button onclick="cuenta()" class="botonnu3">Mi cuenta</button>
+    </div>
 
-          </ul>    </div>
     <div id="reservas" class="reservas">
         <h2 class="reservaa">Administra tus reservas</h2>
         <p>rogramar o cancelar tus reservas y volver a reservar fácilmente.</p>
@@ -72,16 +71,25 @@
     <div id="historial" class="historial">
         <p>Deseamos conocerlos pronto.</p>
     </div>
-    <div class="billetera">
+    <div id="billetera" class="billetera">
         <h1 class="billeteraa">Mi billetera</h1>
         <p>Guarda los detalles de tus tarjetas para pagar más rápido.</p>
     </div>
-    <div class="guardar">
-        <p>Aún no has guardado ninguna tarjeta</p>
-        <p class="detalles">Guarda tus detalles de pago de forma segura, mientras realizas un pedido durante el checkout.</p>
+    <div>
+        <p id="guardar" class="guardar">Aún no has guardado ninguna tarjeta</p>
+        <p id="detalles" class="detalles">Guarda tus detalles de pago de forma segura, mientras realizas un pedido
+            durante el checkout.</p>
     </div>
-    <div class="pedidos"></div>
-    <div class="subs cuenta"></div>
+    <div id="pedidos" class="pedidos">
+        <h2>Mis pedidos</h2>
+        <p>Revisa tu historial de pedidos o verifica el estado de un pedido reciente.</p>
+    </div>
+    <div id="pedidoo" class="pedidoo">
+        <p>Todavía no ha realizado ningún pedido.</p>
+    </div><br>
+    <button id="vuelvo" class="vuelvo" onclick="window.location.href='compras.html'" type="button">Comenzar a navegar</button>
+    <div class="subs-cuenta"></div>
+    <div class="mi-cuenta"></div>
 
     <script src="scipt.js"></script>
 </body>

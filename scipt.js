@@ -48,9 +48,21 @@ function seleccionarOpcion(index) {
   opciones[index].classList.add('selected');
 }
 
-// function seleccionarOpcion(){
-//   document.getElementById("reservas").style.display="block";  
-// }
+function reserva(){
+  document.getElementById("billetera").style.display="none";
+  document.getElementById("guardar").style.display="none";
+  document.getElementById("detalles").style.display="none";
+
+  document.getElementById("pedidos").style.display="none";
+  document.getElementById("pedidoo").style.display="none";
+  document.getElementById("vuelvo").style.display="none";
+
+  // document.getElementById("subs-cuenta").style.display="none";
+  // document.getElementById("mi-cuenta").style.display="none";
+  document.getElementById("reservas").style.display="block";  
+
+  }
+
 function proximas(){
   document.getElementById("historial").style.display="none";  
   document.getElementById("proximas").style.display="block";  
@@ -62,11 +74,35 @@ function historial(){
 
 }
 function billetera(){
-  alert("Ab")
+  document.getElementById("reservas").style.display="none";
+  document.getElementById("historial").style.display="none";
+  document.getElementById("proximas").style.display="none";
+  document.getElementById("pedidos").style.display="none";
+  document.getElementById("pedidoo").style.display="none";
+  document.getElementById("vuelvo").style.display="none";
+  // document.getElementById("subs-cuenta").style.display="none";
+  // document.getElementById("mi-cuenta").style.display="none";
+  document.getElementById("billetera").style.display="block"; 
+  document.getElementById("detalles").style.display="block"; 
+  document.getElementById("guardar").style.display="block"; 
+
+
 
 }
 function pedidos(){
-  alert("Ac")
+  document.getElementById("reservas").style.display="none";
+  document.getElementById("historial").style.display="none";
+  document.getElementById("proximas").style.display="none";
+document.getElementById("billetera").style.display="none"; 
+  document.getElementById("detalles").style.display="none"; 
+  document.getElementById("guardar").style.display="none";
+  // document.getElementById("subs-cuenta").style.display="none";
+  // document.getElementById("mi-cuenta").style.display="none";
+     document.getElementById("pedidos").style.display="block";
+  document.getElementById("pedidoo").style.display="block";
+  document.getElementById("vuelvo").style.display="block";
+
+
 
 }
 function subs(){
