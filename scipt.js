@@ -2,12 +2,12 @@ window.onload = function() {
   // Tu código JavaScript aquí
 };
 
-// function crear() {
-//   const nombre = document.getElementById("nombre-input").value;
-//   const apellido = document.getElementById("apellido-input").value;
-//   const correo = document.getElementById("correo-input").value;
-//   const clave = document.getElementById("clave-input").value;
-//   const clave2 = document.getElementById("clave2-input").value;
+function crear() {
+  const nombre = document.getElementById("nombre-input").value;
+  const apellido = document.getElementById("apellido-input").value;
+  const correo = document.getElementById("correo-input").value;
+  const clave = document.getElementById("clave-input").value;
+  const clave2 = document.getElementById("clave2-input").value;
 //   if (
 //     nombre == [] ||
 //     apellido == [] ||
@@ -17,12 +17,13 @@ window.onload = function() {
 //   ) {
 //     alert("tienes que llenar todos los campos");
 //   }
-//   if (clave == clave2) {
-//     alert("continuaras...");
-//   } else {
-//     alert("verifica tu contraseña");
-//   }
-// }
+  if (clave == clave2) {
+    window.location.href='#formulario'
+    alert("selecciona a que ciudad vas")
+    } else {
+    alert("verifica tu contraseña");
+  }
+}
 function botoncitos() {
   const botonPrincipal = document.getElementById('boton-principal');
   const botonesAdicionales = document.getElementById('botones-adicionales');
@@ -124,3 +125,13 @@ function a(){
     document.getElementById("iniciar-sesion").style.display="none";  
 document.getElementById("crear-cuenta").style.display="block";
 }
+function asesion(){
+  const destino= document.getElementById("destino").value
+    const minus=   destino.toLowerCase();
+   if(minus ==="la ceja" ){
+    document.getElementById("crear-cuenta").style.display="none";
+  document.getElementById("iniciar-sesion").style.display="block";  
+
+    }
+ }
+ 
